@@ -24,6 +24,7 @@ Travlr Getaways is a travel booking-style web app prototype. It includes:
 - HTTP Errors
 
 ## Run Locally
+<<<<<<< HEAD
 
 ```bash
 git clone https://github.com/Smeppens/MEAN-APP.git
@@ -34,6 +35,21 @@ npm start
 
 ## Project Structure
 text
+=======
+
+```bash
+git clone https://github.com/Smeppens/MEAN-APP.git
+cd MEAN-APP/travlr
+npm install
+npm start
+
+Then open: http://localhost:3000
+
+
+Project Structure
+
+
+>>>>>>> 856959b (Update README and add favicon)
 travlr/
 ├── app.js
 ├── bin/
@@ -51,3 +67,12 @@ travlr/
 │   └── *.html
 ├── package.json
 └── package-lock.json
+
+
+Notes
+
+This repository represents a school-era learning project that was later cleaned up for GitHub portfolio use. It is intended to demonstrate project structure, routing, templating, and local setup rather than production deployment.
+
+Author
+
+Shawn Eppens
