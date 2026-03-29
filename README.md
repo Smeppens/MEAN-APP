@@ -2,7 +2,7 @@
 
 An academic full-stack web application originally built for a school project and later cleaned up for portfolio presentation.
 
-This project uses **Node.js**, **Express**, **Handlebars**, and static frontend assets to serve a travel-themed website. The application demonstrates server-side routing, view rendering, reusable partials, and data-driven page content.
+This project uses **Node.js**, **Express**, **Handlebars**, and static frontend assets to serve a travel-themed website. It demonstrates server-side routing, view rendering, reusable partials, and data-driven page content.
 
 ## Overview
 
@@ -23,7 +23,7 @@ Travlr Getaways is a travel booking-style web app prototype. It includes:
 - Cookie Parser
 - HTTP Errors
 
-## Run locally
+## Run Locally
 
 ```bash
 git clone https://github.com/Smeppens/MEAN-APP.git
@@ -31,9 +31,9 @@ cd MEAN-APP/travlr
 npm install
 npm start
 
-## Project Structure
 
-```text
+## Project Structure
+text
 travlr/
 ├── app.js
 ├── bin/
