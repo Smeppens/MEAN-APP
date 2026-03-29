@@ -23,6 +23,14 @@ Travlr Getaways is a travel booking-style web app prototype. It includes:
 - Cookie Parser
 - HTTP Errors
 
+## Run locally
+
+```bash
+git clone https://github.com/Smeppens/MEAN-APP.git
+cd MEAN-APP/travlr
+npm install
+npm start
+
 ## Project Structure
 
 ```text
