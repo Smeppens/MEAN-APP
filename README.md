@@ -1,55 +1,41 @@
-# MEAN-APP / Travlr Getaways
+# Software Engineering Code Sample
 
-An academic full-stack web application originally built for a school project and later cleaned up for portfolio presentation.
-
-This project uses **Node.js**, **Express**, **Handlebars**, and static frontend assets to serve a travel-themed website. It demonstrates server-side routing, view rendering, reusable partials, and data-driven page content.
+**Author:** Shawn Eppens
 
 ## Overview
 
-Travlr Getaways is a travel booking-style web app prototype. It includes:
+This code sample is from Travlr Getaways, a full-stack web application I developed as part of my Computer Science coursework and later cleaned up for use in my GitHub portfolio.
 
-- Express-based server setup
-- Handlebars view templates and partials
-- Static frontend pages and shared assets
-- A travel page rendered from JSON trip data
-- MVC-style folder organization in the `app_server` directory
+The project demonstrates server-side application structure, routing, controllers, templating, static assets, and JSON-based data handling using Node.js and Express.
 
 ## Tech Stack
 
+- JavaScript
 - Node.js
 - Express
 - Handlebars (`hbs`)
 - Morgan
 - Cookie Parser
 - HTTP Errors
+- HTML/CSS
+- JSON
 
 ## Run Locally
-HEAD
 
 ```bash
 git clone https://github.com/Smeppens/MEAN-APP.git
 cd MEAN-APP/travlr
 npm install
 npm start
+```
 
+Then open:
+
+`http://localhost:3000`
 
 ## Project Structure
-text
-=======
 
-```bash
-git clone https://github.com/Smeppens/MEAN-APP.git
-cd MEAN-APP/travlr
-npm install
-npm start
-
-Then open: http://localhost:3000
-
-
-Project Structure
-
-
-Shawn_Eppens_Code_Sample/
+```text
 travlr/
 ├── app.js
 ├── bin/
@@ -67,12 +53,24 @@ travlr/
 │   └── *.html
 ├── package.json
 └── package-lock.json
+```
 
+## What This Sample Demonstrates
 
-Notes
+This project demonstrates my experience with:
 
-This repository represents a school-era learning project that was later cleaned up for GitHub portfolio use. It is intended to demonstrate project structure, routing, templating, and local setup rather than production deployment.
+- Structuring a Node.js and Express application
+- Creating and organizing application routes
+- Separating routing and controller logic
+- Rendering dynamic content with Handlebars templates
+- Working with JSON data
+- Managing application dependencies with npm
+- Organizing frontend and server-side application files
 
-Author
+## Notes
 
-Shawn Eppens
+This repository originated as a school-era learning project and was later cleaned up for GitHub portfolio use. It is intended to demonstrate application structure, routing, templating, and local development setup rather than production deployment.
+
+## Full Repository
+
+https://github.com/Smeppens/MEAN-APP/
